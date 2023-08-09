@@ -1,0 +1,13 @@
+
+<button  (click)="setHabilitar()" >{{ habilitar == true ? 'ocultar' : "habilitar"}}</button>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center display-5">Cursos</h1>
+            <ul class="list-group" *ngIf="habilitar">
+                <li class="list-group-item" *ngFor="let curso of cursos" >{{curso}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
