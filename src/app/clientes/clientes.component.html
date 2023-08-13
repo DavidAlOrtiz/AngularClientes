@@ -1,4 +1,7 @@
 <div class="container">
+    <div>
+        <button class="btn btn-rounded btn-primary" type="button" [routerLink]="['/clientes/form']" >Crear Cliente</button>
+    </div>
     <div *ngFor="let cliente of clientes">
         <p>{{cliente.id}}</p>
         <p>{{cliente.nombre}}</p>
