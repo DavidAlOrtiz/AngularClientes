@@ -9,7 +9,7 @@ import swal from 'sweetalert2';
   selector: 'app-form',
   templateUrl: './form.component.html'
 })
-
+//Clase que maneja el form
 export class FormComponent {
   
   titulo: string = "Crear";
