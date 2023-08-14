@@ -4,10 +4,11 @@ import { Cliente } from './cliente';
 import {Observable, of} from   'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-
 @Injectable({
   providedIn: 'root'
 })
+
+//Clase de servicio de clase
 export class ClientesService {
   
   private url:string = 'http://localhost:8080/clientes/';
