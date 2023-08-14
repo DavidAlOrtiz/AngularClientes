@@ -8,5 +8,8 @@
         <p>{{cliente.apellido}}</p>
         <p>{{cliente.createAt}}</p>
         <p>{{cliente.email}}</p>
+        <div>
+            <button [routerLink]="['/clientes/form', cliente.id ]" class="btn btn-primary">Editar</button>
+        </div>
     </div>
 </div>
