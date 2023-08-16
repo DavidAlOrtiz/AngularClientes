@@ -1,5 +1,5 @@
 export class Cliente {
-    id: number | undefined;
+    id: number = 0;
     nombre:string | undefined;
     apellido:string | undefined;
     createAt:string | undefined;
